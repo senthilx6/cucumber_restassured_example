@@ -1,8 +1,8 @@
 Feature: Login feature
 
   Background:
-    Given User goes to https://salesbusinessau001.myfreshworks.com/
-    And User provides senthilx6@gmail.com as email and Automation@123 as password
+    Given User goes to domain "https://salesbusinessau001.myfreshworks.com/"
+    And User provides email "senthilx6@gmail.com" and password "Automation@123"
 
   Scenario: User able to create an contact
     Given User sends the contact details to create a contact
